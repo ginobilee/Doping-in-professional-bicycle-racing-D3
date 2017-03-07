@@ -2,10 +2,25 @@
 	margin:0 auto;
 	margin-top:50px;
 	text-align:center;
-	background-color:#007093;
+	background-color:;
+}
+#btitle{
+	font-size:40px;
+	font-weight:900;
+	text-shadow:1px 3px 2px #bbb 	
+}
+.bbyline{
+	font-size:25px;
+	font-weight:300;
+}
+svg{
+	border-radius:5px;
+	box-shadow:0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+	margin-bottom:30px
 }
 .chart{
 	background-color:#fff;
+	fill:#888;
 }
 .axis path,
 .axis line{
@@ -14,13 +29,34 @@
 	shape-rendering: crispEdges;
 }
 .dot{
-	fill:#444;
+	fill:#777;
 	stroke:#999;
 	stroke-width:1;
 }
 .clean{
 	fill:red;
 }
-.hint{
-	fill:steelblue;
+#info{
+	position:absolute;
+	top:490px;
+	left:800px;
+	color:#fff;
+	font-size:13px;
+	text-align:center;
+	background-color:steelblue;
+	border-radius:5px;
+	max-width:150px
+}
+.ctitle{
+	font-size:30px;
+	font-weight:500; 	
+	text-shadow:1px 3px 2px #bbb
+}
+.byline{
+	font-size:20px;
+	font-weight:300; 	
+	text-shadow:1px 2px 2px #bbb
+}
+.explanation{
+	font-size:13px;
 }
